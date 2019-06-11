@@ -156,7 +156,7 @@ class Toaster {
     var bottomPadding: CGFloat = 16.0
     var minimumHorizontalPadding: CGFloat = 24.0
 
-    static let shared = Toaster()
+    static let `default` = Toaster()
 
     func show(text: String, duration: Double) {
         dismiss(animated: true)
@@ -193,12 +193,7 @@ class Toaster {
 
     func dismiss(animated: Bool, completion: (() -> Void)? = nil) {
         guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else { return }
-        guard let topViewController = rootViewController.topMostChild else { return }
-
-        if let toaster = topViewController as? ToasterViewController {
-            toaster.dismiss(animated: animated, completion: completion)
-        }
-
+        rootViewController.dismiss(animated: animated, completion: completion)
     }
 }
 
