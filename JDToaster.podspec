@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.platform = :ios
 s.ios.deployment_target = '12.0'
-s.name = "RWPickFlavor"
+s.name = "JDToaster"
 s.summary = "Toasty iOS alerts"
 s.requires_arc = true
 
@@ -12,9 +12,9 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 
 s.author = { "Joan Disho" => "dishojoan@gmail.com" }
 
-s.homepage = "https://github.com/jdisho/Toaster"
+s.homepage = "https://github.com/jdisho/JDToaster"
 
-s.source = { :git => "https://github.com/jdisho/Toaster.git", 
+s.source = { :git => "https://github.com/jdisho/JDToaster.git", 
              :tag => "#{s.version}" }
 
 s.framework = "Foundation"

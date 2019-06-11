@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CB967CB22AFD2BA00BB8924 /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB967CB22AFD2BA00BB8924 /* JDToaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JDToaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB967CE22AFD2BA00BB8924 /* Toaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toaster.h; sourceTree = "<group>"; };
 		2CB967CF22AFD2BA00BB8924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB967D622AFD30C00BB8924 /* Toaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toaster.swift; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		2CB967C122AFD2BA00BB8924 = {
 			isa = PBXGroup;
 			children = (
-				2CB967CD22AFD2BA00BB8924 /* Toaster */,
+				2CB967CD22AFD2BA00BB8924 /* JDToaster */,
 				2CB967CC22AFD2BA00BB8924 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,12 +44,12 @@
 		2CB967CC22AFD2BA00BB8924 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CB967CB22AFD2BA00BB8924 /* Toaster.framework */,
+				2CB967CB22AFD2BA00BB8924 /* JDToaster.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CB967CD22AFD2BA00BB8924 /* Toaster */ = {
+		2CB967CD22AFD2BA00BB8924 /* JDToaster */ = {
 			isa = PBXGroup;
 			children = (
 				2CB967D622AFD30C00BB8924 /* Toaster.swift */,
@@ -58,7 +58,7 @@
 				2CB967CE22AFD2BA00BB8924 /* Toaster.h */,
 				2CB967CF22AFD2BA00BB8924 /* Info.plist */,
 			);
-			path = Toaster;
+			path = JDToaster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,9 +75,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2CB967CA22AFD2BA00BB8924 /* Toaster */ = {
+		2CB967CA22AFD2BA00BB8924 /* JDToaster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CB967D322AFD2BA00BB8924 /* Build configuration list for PBXNativeTarget "Toaster" */;
+			buildConfigurationList = 2CB967D322AFD2BA00BB8924 /* Build configuration list for PBXNativeTarget "JDToaster" */;
 			buildPhases = (
 				2CB967C622AFD2BA00BB8924 /* Headers */,
 				2CB967C722AFD2BA00BB8924 /* Sources */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = Toaster;
+			name = JDToaster;
 			productName = Toaster;
-			productReference = 2CB967CB22AFD2BA00BB8924 /* Toaster.framework */;
+			productReference = 2CB967CB22AFD2BA00BB8924 /* JDToaster.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CB967C522AFD2BA00BB8924 /* Build configuration list for PBXProject "Toaster" */;
+			buildConfigurationList = 2CB967C522AFD2BA00BB8924 /* Build configuration list for PBXProject "JDToaster" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CB967CA22AFD2BA00BB8924 /* Toaster */,
+				2CB967CA22AFD2BA00BB8924 /* JDToaster */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CB967C522AFD2BA00BB8924 /* Build configuration list for PBXProject "Toaster" */ = {
+		2CB967C522AFD2BA00BB8924 /* Build configuration list for PBXProject "JDToaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CB967D122AFD2BA00BB8924 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CB967D322AFD2BA00BB8924 /* Build configuration list for PBXNativeTarget "Toaster" */ = {
+		2CB967D322AFD2BA00BB8924 /* Build configuration list for PBXNativeTarget "JDToaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CB967D422AFD2BA00BB8924 /* Debug */,

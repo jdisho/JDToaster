@@ -1,6 +1,6 @@
 //
 //  Toaster.swift
-//  Toaster
+//  JDToaster
 //
 //  Created by Joan Disho on 11.06.19.
 //  Copyright © 2019 disho. All rights reserved.
