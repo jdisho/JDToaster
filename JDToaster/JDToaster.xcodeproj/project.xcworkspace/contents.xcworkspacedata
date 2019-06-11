@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Toaster.xcodeproj">
+      location = "self:/Users/jdisho/Documents/Github-Clones/Toaster/Toaster/JDToaster.xcodeproj">
    </FileRef>
 </Workspace>

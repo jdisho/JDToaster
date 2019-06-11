@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CB504BA229BFD7200055994 /* Toaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB504BA229BFD7200055994 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB504BD229BFD7200055994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB504BF229BFD7200055994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CB504C2229BFD7200055994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		2CB504BB229BFD7200055994 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CB504BA229BFD7200055994 /* Toaster.app */,
+				2CB504BA229BFD7200055994 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CB504B9229BFD7200055994 /* Toaster */ = {
+		2CB504B9229BFD7200055994 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CB504CC229BFD7400055994 /* Build configuration list for PBXNativeTarget "Toaster" */;
+			buildConfigurationList = 2CB504CC229BFD7400055994 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
 				2CB504B6229BFD7200055994 /* Sources */,
 				2CB504B7229BFD7200055994 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Toaster;
+			name = Example;
 			productName = Toaster;
-			productReference = 2CB504BA229BFD7200055994 /* Toaster.app */;
+			productReference = 2CB504BA229BFD7200055994 /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CB504B5229BFD7200055994 /* Build configuration list for PBXProject "Toaster" */;
+			buildConfigurationList = 2CB504B5229BFD7200055994 /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CB504B9229BFD7200055994 /* Toaster */,
+				2CB504B9229BFD7200055994 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CB504B5229BFD7200055994 /* Build configuration list for PBXProject "Toaster" */ = {
+		2CB504B5229BFD7200055994 /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CB504CA229BFD7400055994 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CB504CC229BFD7400055994 /* Build configuration list for PBXNativeTarget "Toaster" */ = {
+		2CB504CC229BFD7400055994 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CB504CD229BFD7400055994 /* Debug */,
