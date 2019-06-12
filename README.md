@@ -1,14 +1,19 @@
 # 🍞 Toasty iOS alerts
 
-<center> 
+<p align="left">
     <a href="https://swift.org">
         <img src="https://img.shields.io/badge/Swift-5.0-red.svg" />
     </a>
-</center>
-
+    <a href="https://cocoapods.org/pods/JDToaster">
+        <img src="https://img.shields.io/cocoapods/v/JDToaster.svg" />
+    </a>
+    <a href="https://github.com/jdisho/JDToaster">
+        <img src="https://img.shields.io/cocoapods/p/JDToaster.svg?style=flat" />
+    </a>
+</p>
 A toast provides simple feedback in the bottom of the screen about an operation in an popup, which only fills the required amount of space for the message. The current popup remains visible until it’s manully dismissed or automaticaly after a given timeout. It doesn't interupt the user experience and doesn't require any user input to dismiss.
 
-Similar to an `UIAlertController `, a toast is displayed in a separate `UIWindow`. 
+Similar to an `UIAlertController`, a toast is displayed in a separate `UIWindow`. 
 This means that it’s presented on top of everything, regardless the view hierarchy. 
 
 ## 🛠 Installation
