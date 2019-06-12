@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CB967D022AFD2BA00BB8924 /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB967CE22AFD2BA00BB8924 /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CB967D722AFD30C00BB8924 /* Toaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB967D622AFD30C00BB8924 /* Toaster.swift */; };
-		2CB967D922AFD36200BB8924 /* ToasterPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB967D822AFD36200BB8924 /* ToasterPresentationController.swift */; };
-		2CB967DB22AFD41900BB8924 /* ToasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB967DA22AFD41900BB8924 /* ToasterViewController.swift */; };
+		2CEAD1DB22B131860058EAB7 /* JDToaster.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEAD1D922B131860058EAB7 /* JDToaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CEAD1E322B131B50058EAB7 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEAD1E222B131B50058EAB7 /* Toast.swift */; };
+		2CEAD1E522B131C90058EAB7 /* ToastPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEAD1E422B131C90058EAB7 /* ToastPresentationController.swift */; };
+		2CEAD1E722B131E20058EAB7 /* ToastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEAD1E622B131E20058EAB7 /* ToastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CB967CB22AFD2BA00BB8924 /* JDToaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JDToaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CB967CE22AFD2BA00BB8924 /* Toaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toaster.h; sourceTree = "<group>"; };
-		2CB967CF22AFD2BA00BB8924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CB967D622AFD30C00BB8924 /* Toaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toaster.swift; sourceTree = "<group>"; };
-		2CB967D822AFD36200BB8924 /* ToasterPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToasterPresentationController.swift; sourceTree = "<group>"; };
-		2CB967DA22AFD41900BB8924 /* ToasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToasterViewController.swift; sourceTree = "<group>"; };
+		2CEAD1D622B131860058EAB7 /* JDToaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JDToaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CEAD1D922B131860058EAB7 /* JDToaster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDToaster.h; sourceTree = "<group>"; };
+		2CEAD1DA22B131860058EAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CEAD1E222B131B50058EAB7 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		2CEAD1E422B131C90058EAB7 /* ToastPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastPresentationController.swift; sourceTree = "<group>"; };
+		2CEAD1E622B131E20058EAB7 /* ToastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2CB967C822AFD2BA00BB8924 /* Frameworks */ = {
+		2CEAD1D322B131860058EAB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,100 +33,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CB967C122AFD2BA00BB8924 = {
+		2CEAD1CC22B131860058EAB7 = {
 			isa = PBXGroup;
 			children = (
-				2CB967CD22AFD2BA00BB8924 /* JDToaster */,
-				2CB967CC22AFD2BA00BB8924 /* Products */,
+				2CEAD1D822B131860058EAB7 /* JDToaster */,
+				2CEAD1D722B131860058EAB7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2CB967CC22AFD2BA00BB8924 /* Products */ = {
+		2CEAD1D722B131860058EAB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CB967CB22AFD2BA00BB8924 /* JDToaster.framework */,
+				2CEAD1D622B131860058EAB7 /* JDToaster.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CB967CD22AFD2BA00BB8924 /* JDToaster */ = {
+		2CEAD1D822B131860058EAB7 /* JDToaster */ = {
 			isa = PBXGroup;
 			children = (
-				2CB967D622AFD30C00BB8924 /* Toaster.swift */,
-				2CB967D822AFD36200BB8924 /* ToasterPresentationController.swift */,
-				2CB967DA22AFD41900BB8924 /* ToasterViewController.swift */,
-				2CB967CE22AFD2BA00BB8924 /* Toaster.h */,
-				2CB967CF22AFD2BA00BB8924 /* Info.plist */,
+				2CEAD1E122B1318D0058EAB7 /* Source */,
+				2CEAD1D922B131860058EAB7 /* JDToaster.h */,
+				2CEAD1DA22B131860058EAB7 /* Info.plist */,
 			);
 			path = JDToaster;
+			sourceTree = "<group>";
+		};
+		2CEAD1E122B1318D0058EAB7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2CEAD1E222B131B50058EAB7 /* Toast.swift */,
+				2CEAD1E422B131C90058EAB7 /* ToastPresentationController.swift */,
+				2CEAD1E622B131E20058EAB7 /* ToastViewController.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2CB967C622AFD2BA00BB8924 /* Headers */ = {
+		2CEAD1D122B131860058EAB7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB967D022AFD2BA00BB8924 /* Toaster.h in Headers */,
+				2CEAD1DB22B131860058EAB7 /* JDToaster.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2CB967CA22AFD2BA00BB8924 /* JDToaster */ = {
+		2CEAD1D522B131860058EAB7 /* JDToaster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CB967D322AFD2BA00BB8924 /* Build configuration list for PBXNativeTarget "JDToaster" */;
+			buildConfigurationList = 2CEAD1DE22B131860058EAB7 /* Build configuration list for PBXNativeTarget "JDToaster" */;
 			buildPhases = (
-				2CB967C622AFD2BA00BB8924 /* Headers */,
-				2CB967C722AFD2BA00BB8924 /* Sources */,
-				2CB967C822AFD2BA00BB8924 /* Frameworks */,
-				2CB967C922AFD2BA00BB8924 /* Resources */,
+				2CEAD1D122B131860058EAB7 /* Headers */,
+				2CEAD1D222B131860058EAB7 /* Sources */,
+				2CEAD1D322B131860058EAB7 /* Frameworks */,
+				2CEAD1D422B131860058EAB7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = JDToaster;
-			productName = Toaster;
-			productReference = 2CB967CB22AFD2BA00BB8924 /* JDToaster.framework */;
+			productName = JDToaster;
+			productReference = 2CEAD1D622B131860058EAB7 /* JDToaster.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2CB967C222AFD2BA00BB8924 /* Project object */ = {
+		2CEAD1CD22B131860058EAB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = disho;
 				TargetAttributes = {
-					2CB967CA22AFD2BA00BB8924 = {
+					2CEAD1D522B131860058EAB7 = {
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1020;
 					};
 				};
 			};
-			buildConfigurationList = 2CB967C522AFD2BA00BB8924 /* Build configuration list for PBXProject "JDToaster" */;
+			buildConfigurationList = 2CEAD1D022B131860058EAB7 /* Build configuration list for PBXProject "JDToaster" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 2CB967C122AFD2BA00BB8924;
-			productRefGroup = 2CB967CC22AFD2BA00BB8924 /* Products */;
+			mainGroup = 2CEAD1CC22B131860058EAB7;
+			productRefGroup = 2CEAD1D722B131860058EAB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CB967CA22AFD2BA00BB8924 /* JDToaster */,
+				2CEAD1D522B131860058EAB7 /* JDToaster */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CB967C922AFD2BA00BB8924 /* Resources */ = {
+		2CEAD1D422B131860058EAB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,20 +144,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2CB967C722AFD2BA00BB8924 /* Sources */ = {
+		2CEAD1D222B131860058EAB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CB967D922AFD36200BB8924 /* ToasterPresentationController.swift in Sources */,
-				2CB967DB22AFD41900BB8924 /* ToasterViewController.swift in Sources */,
-				2CB967D722AFD30C00BB8924 /* Toaster.swift in Sources */,
+				2CEAD1E522B131C90058EAB7 /* ToastPresentationController.swift in Sources */,
+				2CEAD1E722B131E20058EAB7 /* ToastViewController.swift in Sources */,
+				2CEAD1E322B131B50058EAB7 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2CB967D122AFD2BA00BB8924 /* Debug */ = {
+		2CEAD1DC22B131860058EAB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		2CB967D222AFD2BA00BB8924 /* Release */ = {
+		2CEAD1DD22B131860058EAB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +279,7 @@
 			};
 			name = Release;
 		};
-		2CB967D422AFD2BA00BB8924 /* Debug */ = {
+		2CEAD1DF22B131860058EAB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -282,14 +290,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Toaster/Info.plist;
+				INFOPLIST_FILE = JDToaster/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = disho.Toaster;
+				PRODUCT_BUNDLE_IDENTIFIER = disho.JDToaster;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -298,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		2CB967D522AFD2BA00BB8924 /* Release */ = {
+		2CEAD1E022B131860058EAB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -309,14 +317,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Toaster/Info.plist;
+				INFOPLIST_FILE = JDToaster/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = disho.Toaster;
+				PRODUCT_BUNDLE_IDENTIFIER = disho.JDToaster;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,25 +335,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CB967C522AFD2BA00BB8924 /* Build configuration list for PBXProject "JDToaster" */ = {
+		2CEAD1D022B131860058EAB7 /* Build configuration list for PBXProject "JDToaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CB967D122AFD2BA00BB8924 /* Debug */,
-				2CB967D222AFD2BA00BB8924 /* Release */,
+				2CEAD1DC22B131860058EAB7 /* Debug */,
+				2CEAD1DD22B131860058EAB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CB967D322AFD2BA00BB8924 /* Build configuration list for PBXNativeTarget "JDToaster" */ = {
+		2CEAD1DE22B131860058EAB7 /* Build configuration list for PBXNativeTarget "JDToaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CB967D422AFD2BA00BB8924 /* Debug */,
-				2CB967D522AFD2BA00BB8924 /* Release */,
+				2CEAD1DF22B131860058EAB7 /* Debug */,
+				2CEAD1E022B131860058EAB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2CB967C222AFD2BA00BB8924 /* Project object */;
+	rootObject = 2CEAD1CD22B131860058EAB7 /* Project object */;
 }
