@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JDToaster
 
 class ViewController: UIViewController {
 
@@ -44,18 +45,18 @@ class ViewController: UIViewController {
     }
 
     @objc private func showShortToaster() {
-       Toaster.default.show(text: "Hello Toast!")
+        Toast.default.show(text: "Hello Toast!", duration: 4.0)
     }
 
     @objc private func showBigToaster() {
-        Toaster.default.show(text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+        Toast.default.show(text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", duration: 4.0)
     }
 
     @objc private func showHugeToaster() {
-        Toaster.default.show(text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.")
+        Toast.default.show(text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", duration: 4.0)
     }
 
     @objc private func dismissToaster() {
-        Toaster.default.dismiss(animated: true)
+        Toast.default.dismiss(animated: true)
     }
 }

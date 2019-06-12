@@ -1,0 +1,16 @@
+PODS:
+  - JDToaster (1.0.0)
+
+DEPENDENCIES:
+  - JDToaster
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JDToaster
+
+SPEC CHECKSUMS:
+  JDToaster: 2c6a67a058636c451ae04cb63b3a151ff9fe9e67
+
+PODFILE CHECKSUM: 127aa9bb088bc41f858acabefa73a9cf2c4ecbca
+
+COCOAPODS: 1.7.1
