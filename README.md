@@ -6,12 +6,10 @@
     </a>
 </center>
 
-
 A toast provides simple feedback in the bottom of the screen about an operation in an popup, which only fills the required amount of space for the message. The current popup remains visible until it’s manully dismissed or automaticaly after a given timeout. It doesn't interupt the user experience and doesn't require any user input to dismiss.
 
 Similar to an `UIAlertController `, a toast is displayed in a separate `UIWindow`. 
 This means that it’s presented on top of everything, regardless the view hierarchy. 
-
 
 ## 🛠 Installation
 
@@ -50,8 +48,6 @@ Toaster.default.dismiss(animated: true)
 
 ### 🎨 Customizations
 
-A toast is customizable. 
-
 | Property                   | Type           | Default                                                          | Description                                                        |
 |----------------------------|----------------|------------------------------------------------------------------|--------------------------------------------------------------------|
 | `backgroundColor`          | `UIColor`      | `.black`                                                         | Background colour of the toast                                     |
@@ -71,18 +67,16 @@ Checkout the [Example](https://github.com/jdisho/JDToaster/Example) project
     <img src="https://github.com/jdisho/JDToaster/blob/master/Images/Simulator%20Screen%20Shot%20-%20iPhone%20Xʀ%20-%202019-06-12%20at%2011.42.20.png" width="24%"/>
   </p>
 
+## 🙏 Acknowledgments
+- [Toaster](https://github.com/devxoul/Toaster) by [@devxoul](https://twitter.com/devxoul)
+- [Squawk](https://github.com/GitHawkApp/Squawk) by [@_ryannystrom](https://twitter.com/_ryannystrom)
+- [Custom View Controller Presentation Tips & Tricks](https://kylebashour.com/posts/custom-view-controller-presentation-tips) by [@kylebshr](https://twitter.com/kylebshr)
 
 ## 🐨 Author
 This tiny library is created with ❤️ by [Joan Disho](https://twitter.com/_disho).
 
 ## 📃 License
-
 `JDToaster` is released under an MIT license. See [License.md](https://github.com/jdisho/JDToaster/blob/master/LICENSE) for more information.
-
-
-
-
-
 
 
 
