@@ -5,11 +5,10 @@ A toast provides simple feedback in the bottom of the screen about an operation 
 Similar to an `UIAlertController `, a toast is displayed in a separate `UIWindow`. 
 This means that it’s presented on top of everything, regardless the view hierarchy. 
 
-## Usage
 
-### Installation
+## 🛠 Installation
 
-#### CocoaPods
+### CocoaPods
 
 To integrate `JDToaster` into your Xcode project using `CocoaPods`, specify it in your `Podfile`:
 
@@ -22,6 +21,11 @@ Then, run the following command:
 ```bash
 pod install
 ```
+
+### Manually
+If you prefer not to use any of the dependency managers, you can integrate `JDToaster` into your project manually, by downloading the source code and placing the files on your project directory.
+
+## 👩‍💻 Usage
 
 ### The Basics
 
@@ -37,7 +41,7 @@ Toaster.default.show(text: “Hello Toast!”)
 Toaster.default.dismiss(animated: true)
 ```
 
-### Customizations
+### 🎨 Customizations
 
 A toast is customizable. 
 
@@ -51,9 +55,14 @@ A toast is customizable.
 | `bottomPadding`            | `CGFloat`      | `16.0`                                                           | The space between the toast bottom board and the bottom            |
 | `minimumHorizontalPadding` | `CGFloat`      | `24.0`                                                           | The minimum space between the toast left/right board and the view. |
 
+## ✨ Example
+Checkout the [Example](https://github.com/jdisho/JDToaster/Example) project
 
-
-This is everything you need for toast popups.
+<p float="right">
+    <img src="https://github.com/jdisho/JDToaster/blob/master/Images/Simulator%20Screen%20Shot%20-%20iPhone%20Xʀ%20-%202019-06-12%20at%2011.41.31.png" width="24%"/> 
+    <img src="https://github.com/jdisho/JDToaster/blob/master/Images/Simulator%20Screen%20Shot%20-%20iPhone%20Xʀ%20-%202019-06-12%20at%2011.41.50.png" width="24%"/> 
+    <img src="https://github.com/jdisho/JDToaster/blob/master/Images/Simulator%20Screen%20Shot%20-%20iPhone%20Xʀ%20-%202019-06-12%20at%2011.42.20.png" width="24%"/>
+  </p>
 
 
 ## 🐨 Author
