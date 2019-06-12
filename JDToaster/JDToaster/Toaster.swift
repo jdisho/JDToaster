@@ -20,7 +20,7 @@ public final class Toaster {
 
     public static let `default` = Toaster()
 
-    public func show(text: String, duration: Double) {
+    public func show(text: String, duration: Double = 4.0) {
         dismiss(animated: true)
 
         let toaster = ToasterViewController(
@@ -47,6 +47,10 @@ public final class Toaster {
         window.makeKeyAndVisible()
 
         viewController.present(toaster, animated: true, completion: nil)
+
+        Timer.scheduledTimer(withTimeInterval: duration, repeats: false) { [weak self] _ in
+            self?.dismiss(animated: true)
+        }
     }
 
     public func dismiss(animated: Bool, completion: (() -> Void)? = nil) {
