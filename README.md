@@ -1,8 +1,9 @@
 # 🍞 Toasty iOS alerts
 
-A toast provides simple feedback about an operation in an popup, which only fills the required amount of space for the message. The current popup remains visible until it’s manully dismissed or automaticaly after a given timeout. 
+A toast provides simple feedback in the bottom of the screen about an operation in an popup, which only fills the required amount of space for the message. The current popup remains visible until it’s manully dismissed or automaticaly after a given timeout. It doesn't interupt the user experience and doesn't require any user input to dismiss.
 
-Similar to an `UIAlertController `, a toast is displayed in a separate `UIWindow`. This means that it’s presented on top of everything, regardless the view hierarchy. 
+Similar to an `UIAlertController `, a toast is displayed in a separate `UIWindow`. 
+This means that it’s presented on top of everything, regardless the view hierarchy. 
 
 ## Usage
 
