@@ -1,15 +1,15 @@
 //
-//  ToasterPresentationController.swift
-//  Toaster
+//  ToastPresentationController.swift
+//  JDToaster
 //
-//  Created by Joan Disho on 11.06.19.
+//  Created by Joan Disho on 12.06.19.
 //  Copyright © 2019 disho. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-final class ToasterPresentationController: UIPresentationController {
+final class ToastPresentationController: UIPresentationController {
 
     var bottomPadding: CGFloat = 0.0
     var minimumHorizontalPadding: CGFloat = 0.0

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.platform = :ios
-s.ios.deployment_target = '12.0'
+s.ios.deployment_target = '11.0'
 s.name = "JDToaster"
 s.summary = "Toasty iOS alerts"
 s.requires_arc = true
@@ -20,7 +20,7 @@ s.source = { :git => "https://github.com/jdisho/JDToaster.git",
 s.framework = "Foundation"
 s.framework = "UIKit"
 
-s.source_files = "Toaster/**/*.{swift}"
+s.source_files = "JDToaster/**/*.{swift}"
 
 s.swift_version = "5.0"
 

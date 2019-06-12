@@ -1,15 +1,15 @@
 //
-//  ToasterViewController.swift
-//  Toaster
+//  ToastViewController.swift
+//  JDToaster
 //
-//  Created by Joan Disho on 11.06.19.
+//  Created by Joan Disho on 12.06.19.
 //  Copyright © 2019 disho. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-final class ToasterViewController: UIViewController, UIViewControllerTransitioningDelegate {
+final class ToastViewController: UIViewController, UIViewControllerTransitioningDelegate {
     struct Configuration {
         let text: String
         let backgroundColor: UIColor
@@ -55,7 +55,7 @@ final class ToasterViewController: UIViewController, UIViewControllerTransitioni
             label.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -configuration.textInsets.bottom),
             label.widthAnchor.constraint(lessThanOrEqualTo: view.widthAnchor, constant: -(configuration.textInsets.left + configuration.textInsets.right)),
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
-        ])
+            ])
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -67,10 +67,10 @@ final class ToasterViewController: UIViewController, UIViewControllerTransitioni
     }
 
     func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
-        let toasterPresentationController = ToasterPresentationController(presentedViewController: presented, presenting: presenting)
-        toasterPresentationController.bottomPadding = configuration.bottomPadding
-        toasterPresentationController.minimumHorizontalPadding = configuration.minimumHorizontalPadding
-        return toasterPresentationController
+        let toastPresentationController = ToastPresentationController(presentedViewController: presented, presenting: presenting)
+        toastPresentationController.bottomPadding = configuration.bottomPadding
+        toastPresentationController.minimumHorizontalPadding = configuration.minimumHorizontalPadding
+        return toastPresentationController
     }
 }
 

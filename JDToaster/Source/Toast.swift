@@ -1,15 +1,15 @@
 //
-//  Toaster.swift
+//  Toast.swift
 //  JDToaster
 //
-//  Created by Joan Disho on 11.06.19.
+//  Created by Joan Disho on 12.06.19.
 //  Copyright © 2019 disho. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-public final class Toaster {
+public final class Toast {
     public var backgroundColor: UIColor = .black
     public var font: UIFont = .systemFont(ofSize: 17, weight: .medium)
     public var textColor: UIColor = .white
@@ -18,13 +18,13 @@ public final class Toaster {
     public var bottomPadding: CGFloat = 16.0
     public var minimumHorizontalPadding: CGFloat = 24.0
 
-    public static let `default` = Toaster()
+    public static let `default` = Toast()
 
-    public func show(text: String, duration: Double = 4.0) {
+    public func show(text: String, duration: Double) {
         dismiss(animated: true)
 
-        let toaster = ToasterViewController(
-            configuration: ToasterViewController.Configuration(
+        let toaster = ToastViewController(
+            configuration: ToastViewController.Configuration(
                 text: text,
                 backgroundColor: backgroundColor,
                 font: font,
@@ -47,10 +47,6 @@ public final class Toaster {
         window.makeKeyAndVisible()
 
         viewController.present(toaster, animated: true, completion: nil)
-
-        Timer.scheduledTimer(withTimeInterval: duration, repeats: false) { [weak self] _ in
-            self?.dismiss(animated: true)
-        }
     }
 
     public func dismiss(animated: Bool, completion: (() -> Void)? = nil) {
