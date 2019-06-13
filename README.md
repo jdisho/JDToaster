@@ -64,7 +64,7 @@ Toaster.default.dismiss(animated: true)
 | `minimumHorizontalPadding` | `CGFloat`      | `24.0`                                                           | The minimum space between the toast left/right board and the view. |
 
 ## ✨ Example
-Checkout the [Example](https://github.com/jdisho/JDToaster/Example) project
+Checkout the [Example](https://github.com/jdisho/JDToaster/tree/master/Example) project
 
 <p float="right">
     <img src="https://github.com/jdisho/JDToaster/blob/master/Images/Simulator%20Screen%20Shot%20-%20iPhone%20Xʀ%20-%202019-06-12%20at%2011.41.31.png" width="24%"/> 
