@@ -20,6 +20,8 @@ public final class Toast {
 
     public static let `default` = Toast()
 
+    private var window: UIWindow?
+
     public func show(text: String, duration: Double) {
         dismiss(animated: true)
 
@@ -36,15 +38,15 @@ public final class Toast {
             )
         )
 
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        window.isUserInteractionEnabled = false
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.isUserInteractionEnabled = false
 
         let viewController = UIViewController()
         viewController.view.backgroundColor = .clear
 
-        window.rootViewController = viewController
-        window.windowLevel = UIWindow.Level.normal + 1
-        window.makeKeyAndVisible()
+        window?.rootViewController = viewController
+        window?.windowLevel = UIWindow.Level.normal + 1
+        window?.makeKeyAndVisible()
 
         viewController.present(toaster, animated: true, completion: nil)
     }
