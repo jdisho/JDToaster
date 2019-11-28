@@ -20,8 +20,17 @@ public final class Toast {
 
     public static let `default` = Toast()
 
+    private var window: UIWindow?
+    private var timer: Timer? {
+        willSet {
+            timer?.invalidate()
+        }
+    }
+
     public func show(text: String, duration: Double) {
-        dismiss(animated: true)
+        timer = Timer.scheduledTimer(withTimeInterval: duration, repeats: false) { [weak self] _ in
+            self?.dismiss(animated: true)
+        }
 
         let toaster = ToastViewController(
             configuration: ToastViewController.Configuration(
