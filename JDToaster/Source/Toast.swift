@@ -59,7 +59,14 @@ public final class Toast {
     }
 
     public func dismiss(animated: Bool = true, completion: (() -> Void)? = nil) {
-        guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else { return }
+        let keyWindow = UIApplication.shared.connectedScenes
+            .filter { $0.activationState == .foregroundActive }
+            .map { $0 as? UIWindowScene }
+            .compactMap { $0 }
+            .first?.windows
+            .first(where: { $0.isKeyWindow })
+
+        guard let rootViewController = keyWindow?.rootViewController else { return }
         rootViewController.dismiss(animated: animated, completion: completion)
     }
 }
