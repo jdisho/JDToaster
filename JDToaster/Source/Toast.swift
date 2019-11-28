@@ -27,9 +27,9 @@ public final class Toast {
         }
     }
 
-    public func show(text: String, duration: Double) {
+    public func show(text: String, duration: Double, animated: Bool = true) {
         timer = Timer.scheduledTimer(withTimeInterval: duration, repeats: false) { [weak self] _ in
-            self?.dismiss(animated: true)
+            self?.dismiss(animated: animated)
         }
 
         let toaster = ToastViewController(
@@ -55,10 +55,10 @@ public final class Toast {
         window?.windowLevel = UIWindow.Level.normal + 1
         window?.makeKeyAndVisible()
 
-        viewController.present(toaster, animated: true, completion: nil)
+        viewController.present(toaster, animated: animated, completion: nil)
     }
 
-    public func dismiss(animated: Bool, completion: (() -> Void)? = nil) {
+    public func dismiss(animated: Bool = true, completion: (() -> Void)? = nil) {
         guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else { return }
         rootViewController.dismiss(animated: animated, completion: completion)
     }
