@@ -20,6 +20,7 @@ public final class Toast {
 
     public static let `default` = Toast()
 
+    private let feedbackGenerator = UINotificationFeedbackGenerator()
     private var window: UIWindow?
     private var timer: Timer? {
         willSet {
@@ -27,7 +28,15 @@ public final class Toast {
         }
     }
 
-    public func show(text: String, duration: Double, animated: Bool = true) {
+    public func show(
+        text: String,
+        duration: Double,
+        feedbackType: UINotificationFeedbackGenerator.FeedbackType = .success,
+        animated: Bool = true
+    ) {
+        feedbackGenerator.prepare()
+        feedbackGenerator.notificationOccurred(feedbackType)
+
         timer = Timer.scheduledTimer(withTimeInterval: duration, repeats: false) { [weak self] _ in
             self?.dismiss(animated: animated)
         }
